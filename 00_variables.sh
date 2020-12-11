@@ -4,7 +4,7 @@
 NS="demo-deploy-rasa"
 
 # release name
-RELEASE_NAME="demo-deploy-rasa-release"
+RELEASE_NAME="dummy-release"
 
 # get the machine's internal ip address
 INTERNAL_IP=`echo $(hostname -I) | cut -f 1 -d ' '`
