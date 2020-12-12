@@ -10,3 +10,10 @@ All scripts were run on an AWS EC2 instance with this image:
 # Usage
 
 Run the commands in each script in the sequence named i.e. start with [00_setup.sh](./00_setup.sh), [01_install_microk8s.sh](./01_install_microk8s.sh), ... , [13_cicd.sh](./13_cicd.sh).
+
+# Hint
+
+This diagram is useful to understand how all the microservices fit together:
+
+![Rasa X deployment architecture](https://rasa.com/docs/rasa-x/img/architecture.png)
+*Source: https://rasa.com/docs/rasa-x/api/architecture*
